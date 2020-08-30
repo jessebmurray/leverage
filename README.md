@@ -1,7 +1,7 @@
 # leverage
 What does the last 93 years of daily S&amp;P 500 data have to say about the now well-known intra-day leverage?
 
-All the `leverage` notebooks are nearly identical, except with 15-year periods or 2x instead of the standard 3x leverage. The plots shown below are from the [10-year 3x leverage notebook](10yr-3x.ipynb).
+All the `leverage` notebooks are nearly identical, except with 15-year periods instead of 10-yr periods, or 2x instead of the standard 3x leverage. The plots shown below are from the [10-year 3x leverage notebook](10yr-3x.ipynb).
 
 
 
