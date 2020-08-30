@@ -9,18 +9,37 @@ All the `leverage` notebooks are nearly identical, except with 15-year periods i
 
 ![](plots/leverage-10yr-percentiles.png)
 
+![](plots/leverage-10yr-returns_by_date.png)
+
+
+#### Percentiles for each leverage rate (individually)
+
 ![](plots/leverage-10yr-limited_percentiles.png)
 
 ![](plots/leverage-10yr-median.png)
 
+#### Percentiles for the S&P 500 
+
+![](plots/leverage-10yr-basis-limited_percentiles.png)
+
 ![](plots/leverage-10yr-optimal_leverage.png)
 
 
-### Relative to baseline (100% S&P 500, 0% leverage)
+## Relative to baseline (100% S&P 500, 0% leverage)
 
 ![](plots/leverage-10yr-relative-percentiles.png)
 
-![](plots/leverage-10yr-relative-limited_percentiles.png)
+![](plots/leverage-10yr-relative-returns_by_date.png)
+
+#### Percentiles for each leverage rate (individually)
+
+![](plots/leverage-10yr-relative-returns_by_date.png)
 
 ![](plots/leverage-10yr-relative-median.png)
+
+#### Percentiles for the S&P 500 
+
+![](plots/leverage-10yr-relative-basis-limited_percentiles.png)
+
+
 
