@@ -13111,7 +13111,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Raw-leverage-curves">Raw leverage curves<a class="anchor-link" href="#Raw-leverage-curves">&#182;</a></h4><p>In the raw data shown below, each curve represents the returns from increasing leverage percentages for a single ten-year period. In good times, more leverage leads to higher returns. In bad times, more leaverage leads to lower returns, or even substantial losses.</p>
-<p><img src="plots/leverage-10yr-many_lev_curves.png" alt=""></p>
+<p><img src="plots/leverage-10yr-many_lev_curves.png" width="800"></p>
 
 </div>
 </div>
@@ -13120,7 +13120,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Leverage-curves-by-percentile">Leverage curves by percentile<a class="anchor-link" href="#Leverage-curves-by-percentile">&#182;</a></h4><p>The leverage curves can be separated into percentiles, where 0%, shown in purple, would be the lowest ten-year return on investment. Likewise, 100%, shown in yellow, would be the highest ten-year return on investment. The median (50%) is shown in red. It is worth noting that the percentiles are calculated separately for each leverage percentage.</p>
-<p><img src="plots/leverage-10yr-percentiles.png" alt=""></p>
+<p><img src="plots/leverage-10yr-percentiles.png" width="800"></p>
 
 </div>
 </div>
@@ -13129,7 +13129,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Returns-by-date-of-investment">Returns by date of investment<a class="anchor-link" href="#Returns-by-date-of-investment">&#182;</a></h4><p>The great depression (1930s) was highly destructive for leveraging, as was the dot-com bubble (2000). Nevertheless, other recessions appear not to have substantially affected low amounts of leverage, including the recent coronavirus recession. Furthermore, small amounts of leverage substantially boosted returns in the periods of the early-1940s to the early-1960s, and the mid-1970s to the mid-1990s.</p>
-<p><img src="plots/leverage-10yr-returns_by_date.png" alt=""></p>
+<p><img src="plots/leverage-10yr-returns_by_date.png" width="800"></p>
 
 </div>
 </div>
@@ -13138,8 +13138,8 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Leverage-curves-of-selected-percentiles">Leverage curves of selected percentiles<a class="anchor-link" href="#Leverage-curves-of-selected-percentiles">&#182;</a></h4><p>We can show the leverage curves for select percentiles and separately, for the median. An interesting feature is that as the performance goes from best to worst, the leverage curve shifts from convex, to concave, then back to convex. As the percentiles decrease: there are initially increasing positive marginal returns, then diminishing positive marginal returns, then increasing negative marginal returns, and lastly diminishing negative marginal returns.</p>
-<p><img src="plots/leverage-10yr-limited_percentiles.png" alt=""></p>
-<p><img src="plots/leverage-10yr-median.png" alt=""></p>
+<p><img src="plots/leverage-10yr-limited_percentiles.png" width="800"></p>
+<p><img src="plots/leverage-10yr-median.png" width="600"></p>
 
 </div>
 </div>
@@ -13148,10 +13148,10 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="All-of-the-same-plots,-relative-to-baseline">All of the same plots, relative to baseline<a class="anchor-link" href="#All-of-the-same-plots,-relative-to-baseline">&#182;</a></h2><p>The baseline is no leverage, in other words 100% of the portfolio is invested solely in the S&amp;P 500. Here we're just dividing all of the returns by the S&amp;P 500 return so that we can more clearly compare how much better or worse each percent leveraged performs, relative to using no leverage.</p>
-<p><img src="plots/leverage-10yr-relative-percentiles.png" alt=""></p>
-<p><img src="plots/leverage-10yr-relative-returns_by_date.png" alt=""></p>
-<p><img src="plots/leverage-10yr-relative-limited_percentiles.png" alt=""></p>
-<p><img src="plots/leverage-10yr-relative-median.png" alt=""></p>
+<p><img src="plots/leverage-10yr-relative-percentiles.png" width="700"></p>
+<p><img src="plots/leverage-10yr-relative-returns_by_date.png" width="700"></p>
+<p><img src="plots/leverage-10yr-relative-limited_percentiles.png" width="800"></p>
+<p><img src="plots/leverage-10yr-relative-median.png" width="600"></p>
 
 </div>
 </div>
@@ -13161,7 +13161,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Optimal-leverage-for-each-percentile">Optimal leverage for each percentile<a class="anchor-link" href="#Optimal-leverage-for-each-percentile">&#182;</a></h2><p>For each percentile of performance (calculated seperately for the leverage percentages), we can see what percent leveraged performs the best. That is, at the 30th percentile of all of the leverage percentages - such that they each would perform better in 70% of ten-year periods - a leverage percentage of about 20% performs best.</p>
 <p>We can see that the optimal leverage quickly transitions from 0% leverage to 100% leverage as performance improves. However, it is worth noting that in 80% of ten-year periods, some amount of leverage performed better than none.</p>
-<p><img src="plots/leverage-10yr-optimal_leverage.png" alt=""></p>
+<p><img src="plots/leverage-10yr-optimal_leverage.png" width="600"></p>
 
 </div>
 </div>
@@ -13171,8 +13171,8 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Percentiles-based-on-the-performance-of-the-S&amp;P-500">Percentiles based on the performance of the S&amp;P 500<a class="anchor-link" href="#Percentiles-based-on-the-performance-of-the-S&amp;P-500">&#182;</a></h2><p>We've been calculating the percentiles individually for each leverage percentage as the performance of leveraged percentages are not always strictly ordered. For example, in a given ten-year periods, a leverage percentage of 50% might perform better than a leverage percentage of 45%, but perhaps worse than a leverage percentage of 55%.</p>
 <p>We may want to obtain the percentiles of the S&amp;P 500 and then see how different leverage percentages perform under those percentiles. For example, a percentile of 10% would mean that the S&amp;P 500 performs better in 90% of ten-year periods, and worse in 10% of ten-year periods. Then, we can get the absolute or relative performance of each of the different leverage percentages, based on the performance of the S&amp;P 500 in that specific ten-year period.</p>
-<p><img src="plots/leverage-10yr-basis-limited_percentiles.png" alt=""></p>
-<p><img src="plots/leverage-10yr-relative-basis-limited_percentiles.png" alt=""></p>
+<p><img src="plots/leverage-10yr-basis-limited_percentiles.png" width="800"></p>
+<p><img src="plots/leverage-10yr-relative-basis-limited_percentiles.png" width="800"></p>
 
 </div>
 </div>
